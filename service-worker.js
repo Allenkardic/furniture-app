@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/furniture-app/precache-manifest.8895c16dc120e353dc94e5b3b405cb5a.js"
+  "/furniture-app/precache-manifest.7784ee4f36a6af436fd331f7fe6476a0.js"
 );
 
 self.addEventListener('message', (event) => {
