@@ -9,7 +9,7 @@ class Home extends Component {
   render() {
     return (
       <div>
-        {/* <div className="before-clicked">
+        <div className="before-clicked">
           <div className="before-clicked-elements">
             <div className="before-clicked-elements-items">
               <h2>Jonal</h2>
@@ -46,10 +46,10 @@ class Home extends Component {
               <img className="sofa" src={SOFA3} alt="sofa" />
             </div>
           </div>
-        </div> */}
+        </div>
 
         {/* after clicked */}
-        <div className="wrapper-container">
+        {/* <div className="wrapper-container">
           <div className="after-clicked">
             <div className="after-clicked-elements">
               <div className="after-clicked-elements-items">
@@ -95,7 +95,7 @@ class Home extends Component {
             <a className="prev">&#10094;</a>
             <a className="next">&#10095;</a>
           </div>
-        </div>
+        </div> */}
       </div>
     );
   }

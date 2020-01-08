@@ -3,7 +3,6 @@
 * {
   padding: 0;
   margin: 0;
-  overflow-x: hidden;
 }
 
 body {
@@ -20,7 +19,7 @@ code {
     monospace;
 }
 
-/* .before-clicked {
+.before-clicked {
   display: flex;
   flex-direction: column;
   margin: 4rem 0rem;
@@ -39,7 +38,6 @@ code {
 .before-clicked-elements-items {
   display: flex;
   flex-direction: row;
-  border: 2px solid yellow;
   border-radius: 4px;
   padding: 1rem 0.5rem;
   justify-content: space-between;
@@ -49,7 +47,7 @@ code {
 .before-clicked-elements-items:first-child {
   display: flex;
   flex-direction: column;
-} */
+}
 
 .sofa {
   max-width: 100%;
@@ -57,7 +55,7 @@ code {
   height: 15vh;
 }
 
-/* what happens after click */
+/* what happens after click
 .after-clicked {
   position: relative;
   display: flex;
@@ -95,4 +93,4 @@ code {
   top: 0;
   left: 4px;
   bottom: 0;
-}
+} */
