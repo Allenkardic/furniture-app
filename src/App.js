@@ -2,12 +2,14 @@
 
 import React from "react";
 import "./index.css";
-import Home from "./component/Home";
+// import Home from "./component/Home";
+import Scrol from "./component/Scrol";
 
 function App() {
   return (
     <div className="App">
-      <Home />
+      {/* <Home /> */}
+      <Scrol />
     </div>
   );
 }

@@ -19,78 +19,167 @@ code {
     monospace;
 }
 
-.before-clicked {
-  display: flex;
-  flex-direction: column;
-  margin: 4rem 0rem;
+body {
   background-color: whitesmoke;
 }
 
-.before-clicked-elements {
-  display: flex;
-  flex-direction: row;
-  background-color: white;
-  color: black;
-  margin: 1rem 1rem;
-  border-radius: 5px;
+@media screen and (max-width: 780px) {
+  .box-before-click {
+    border: 1px solid red;
+    margin-top: 3rem;
+    display: flex;
+    justify-content: center;
+    /* transition: 10s; */
+  }
+
+  .pre {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pre-box-items {
+    background-color: white;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    width: 350px;
+    height: 150px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+
+  .pre-box-items:first-child {
+    margin-top: 1rem;
+  }
+
+  .pre-box-1 {
+    padding-left: 0.5rem;
+    padding-top: 0.8rem;
+    width: 48%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .names {
+    font-size: 1.3em;
+  }
+
+  .pre-box-change-color {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .pre-color-change {
+    margin-right: 0.2rem;
+    border-radius: 50%;
+    height: 15px;
+    width: 15px;
+    background-color: blue;
+  }
+
+  .pre-text-box {
+    white-space: normal;
+    font-size: 0.7em;
+  }
 }
 
-.before-clicked-elements-items {
-  display: flex;
-  flex-direction: row;
-  border-radius: 4px;
-  padding: 1rem 0.5rem;
-  justify-content: space-between;
-  flex: 4;
-}
-
-.before-clicked-elements-items:first-child {
-  display: flex;
-  flex-direction: column;
-}
-
-.sofa {
-  max-width: 100%;
-  width: 100%;
-  height: 15vh;
-}
-
-/* what happens after click
-.after-clicked {
+/* after click */
+.box {
+  display: none;
   position: relative;
-  display: flex;
-  background-color: whitesmoke;
-  flex: 1;
-  min-width: 1000px;
+  margin-top: 2rem;
+  padding: 3rem 0;
+  height: 420px;
+  border: 1px solid red;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  white-space: nowrap;
+  /* position: relative; */
 }
 
-.after-clicked-elements {
-  position: relative;
-  display: flex;
-  flex: 1;
-  flex-direction: column;
-  background-color: white;
-  color: black;
-  margin: 1rem 1rem;
-  border-radius: 5px;
-}
-
-.after-clicked-elements-items {
-  display: flex;
-  flex-direction: column;
-  border: 2px solid yellow;
-  border-radius: 4px;
-  padding: 1rem 0.5rem;
-  justify-content: space-between;
-  flex: 4;
-}
-
-.wrapper-container {
-  border: 2px solid red;
-  width: 300px;
-  height: 300px;
+#btn-close {
+  color: rgb(39, 39, 54);
+  font-size: 2em;
   position: absolute;
   top: 0;
-  left: 4px;
-  bottom: 0;
-} */
+  left: 330px;
+}
+
+.box::-webkit-scrollbar {
+  display: none;
+}
+
+.box-items {
+  display: inline-block;
+  width: 95%;
+  margin-left: 4px;
+  height: 100%;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.box-1 {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.image-content {
+  position: absolute;
+  top: -50px;
+  left: 140px;
+}
+
+img {
+  width: 100px;
+  height: 100px;
+}
+
+.content {
+  margin-top: 4rem;
+  /* display: flex;
+  justify-content: center; */
+  text-align: center;
+}
+
+.text-box {
+  margin-top: 1rem;
+  white-space: normal;
+  padding: 0 0.8rem;
+}
+
+.box-change-color {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin: 0 2rem;
+}
+
+.color-change {
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin: 2rem 0;
+  background-color: blue;
+}
+
+.color-red {
+  background-color: red;
+}
+
+.color-blue {
+  background-color: blue;
+}
+
+.color-yellow {
+  background-color: yellow;
+}
+
+.btn-buy {
+  width: 95%;
+  padding: 1rem 0;
+  color: white;
+  background-color: rgb(39, 39, 54);
+  border: none;
+  border-radius: 5px;
+}

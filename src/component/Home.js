@@ -48,54 +48,63 @@ class Home extends Component {
           </div>
         </div>
 
-        {/* after clicked */}
-        {/* <div className="wrapper-container">
-          <div className="after-clicked">
-            <div className="after-clicked-elements">
-              <div className="after-clicked-elements-items">
-                <img className="sofa" src={SOFA1} alt="sofa" />
-              </div>
-              <div className="after-clicked-elements-items">
-                <h2>Jonal</h2>
-                <div>$500</div>
-                <div>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                </div>
-                <button>Buy</button>
-              </div>
-            </div>
-
-            <div className="after-clicked-elements">
-              <div className="after-clicked-elements-items">
-                <img className="sofa" src={SOFA2} alt="sofa" />
-              </div>
-              <div className="before-clicked-elements-items">
-                <h2>Jonal</h2>
-                <div>$500</div>
-                <div>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                </div>
-                <button>Buy</button>
-              </div>
-            </div>
-
-            <div className="after-clicked-elements">
-              <div className="after-clicked-elements-items">
-                <img className="sofa" src={SOFA3} alt="sofa" />
-              </div>
-              <div className="before-clicked-elements-items">
-                <h2>Jonal</h2>
-                <div>$500</div>
-                <div>
-                  Lorem ipsum dolor, sit amet consectetur adipisicing elit.
-                </div>
-                <button>Buy</button>
-              </div>
-            </div>
-            <a className="prev">&#10094;</a>
-            <a className="next">&#10095;</a>
+        <div className="container">
+          <div className="container-items">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nam odio
+            eveniet esse, quas adipisci illum consequatur tempore, perferendis
+            quia, accusantium tempora quo illo? Voluptate debitis laboriosam
+            labore maxime eum consequatur!
           </div>
-        </div> */}
+          <div className="container-items">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam
+            assumenda cum, enim earum quibusdam laudantium minus maiores
+            consequatur deleniti excepturi vitae quia inventore ad dignissimos
+            soluta? Asperiores error dolore veniam nulla, temporibus repudiandae
+            ut vitae, perferendis adipisci, beatae tempore praesentium!
+          </div>
+          <div className="container-items">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
+            accusamus laboriosam libero minus laudantium quisquam cupiditate,
+            labore ipsum praesentium officia repellat, voluptatibus dignissimos
+            aliquam esse deleniti, sed molestiae. Nostrum numquam expedita
+            magni? Natus expedita recusandae earum alias amet quasi ab?
+          </div>
+          <div className="container-items">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Harum
+            repudiandae dolore explicabo minima dolorum incidunt corrupti,
+            quisquam consequuntur tempora aut ratione, eos, ex suscipit
+            doloremque voluptatem facere? Enim, assumenda, explicabo dolorem
+            dicta aliquid voluptatum eaque voluptatibus molestiae eum est a!
+          </div>
+          <div className="container-items">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
+            voluptas aperiam corrupti amet quasi optio eveniet. Modi ab illum,
+            dolorum animi nemo iste sapiente. Consequuntur, quas hic iusto
+            voluptatibus atque maxime autem tempora blanditiis voluptates
+            aliquid ab minus eligendi veritatis.
+          </div>
+          <div className="container-items">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
+            voluptas aperiam corrupti amet quasi optio eveniet. Modi ab illum,
+            dolorum animi nemo iste sapiente. Consequuntur, quas hic iusto
+            voluptatibus atque maxime autem tempora blanditiis voluptates
+            aliquid ab minus eligendi veritatis.
+          </div>
+          <div className="container-items">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
+            voluptas aperiam corrupti amet quasi optio eveniet. Modi ab illum,
+            dolorum animi nemo iste sapiente. Consequuntur, quas hic iusto
+            voluptatibus atque maxime autem tempora blanditiis voluptates
+            aliquid ab minus eligendi veritatis.
+          </div>
+          <div className="container-items">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur,
+            voluptas aperiam corrupti amet quasi optio eveniet. Modi ab illum,
+            dolorum animi nemo iste sapiente. Consequuntur, quas hic iusto
+            voluptatibus atque maxime autem tempora blanditiis voluptates
+            aliquid ab minus eligendi veritatis.
+          </div>
+        </div>
       </div>
     );
   }
