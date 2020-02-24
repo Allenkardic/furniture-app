@@ -1,23 +1,23 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "bc79d7bd65a1ad10f15474ab0b7ccb3e",
+    "revision": "7085909b0acb85b7fa3f327c08504b4c",
     "url": "/furniture-app/index.html"
   },
   {
-    "revision": "0ebe80925833cd33daea",
-    "url": "/furniture-app/static/css/main.92c11a87.chunk.css"
+    "revision": "dac33596f58d085f8ceb",
+    "url": "/furniture-app/static/css/main.fd3a2ca5.chunk.css"
   },
   {
-    "revision": "ee91bac3e8822190f801",
-    "url": "/furniture-app/static/js/2.18ae1b5f.chunk.js"
+    "revision": "40c3c6c9476b7f5e7b64",
+    "url": "/furniture-app/static/js/2.b54ef1db.chunk.js"
   },
   {
     "revision": "d705cb622423d72c5defbf368ca70dcc",
-    "url": "/furniture-app/static/js/2.18ae1b5f.chunk.js.LICENSE"
+    "url": "/furniture-app/static/js/2.b54ef1db.chunk.js.LICENSE"
   },
   {
-    "revision": "0ebe80925833cd33daea",
-    "url": "/furniture-app/static/js/main.3b515fc0.chunk.js"
+    "revision": "dac33596f58d085f8ceb",
+    "url": "/furniture-app/static/js/main.b14e175d.chunk.js"
   },
   {
     "revision": "2dc1880df4e2d4df672d",
